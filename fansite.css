@@ -69,7 +69,8 @@ h1,a{
     background-color: grey;
     font-size: large;
     font-family: 'Morpheus', sans-serif;
-    color: rgba(255, 217, 0, 0.705);;
+    color: rgba(255, 217, 0, 0.705);
+    margin-top: 2%;
 }
 
 footer a{
@@ -146,14 +147,34 @@ h2{
     margin-top: 1%;
 }
 
+.txt_histoire p{
+    font-size: 120%;
+    margin-top: 1%;
+}
 
+#body_histoire p{
+    font-size: 120%;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-right: 20%;
+}
 
-.txt_histoire{
+.evenement{
     display: flex;
     justify-content: center;
 }
 
-.txt_histoire p{
-    font-size: 120%;
-    margin-top: 1%;
+.img_histoire{
+    max-width: 400px;
+    max-height: auto;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.div_img_histoire{
+    margin-right: 10%;
+}
+
+.txt_evenement{
+    padding-left: 15%;
 }
