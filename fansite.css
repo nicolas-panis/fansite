@@ -1,0 +1,159 @@
+*,::before,::after{
+    margin:0;
+    padding: 0;
+}
+
+/****************** Header ******************/
+
+header{
+    background-image: url("style/banniere_wow.png");
+    background-repeat: no-repeat;
+    font-family: 'Morpheus', sans-serif;
+    color:rgba(255, 217, 0, 0.774);
+    background-size: cover;
+    padding-left: 2%;
+    font-size: 200%;
+}
+
+.menu{
+    display: flex;
+    margin-right: 10%;
+    justify-content: flex-end;
+}
+
+.menu li {
+    list-style-type: none ; 
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+}
+
+.menu a{
+    text-decoration: none;
+    margin: 0.25em;
+    padding: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: block;
+    background-color: #191f1d;
+    color:rgba(255, 217, 0, 0.705);
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 10px;    
+    transition: all 0.5s;
+}
+
+.menu a.actif {    
+    background-color: rgba(255, 217, 0, 0.705);
+    color: #191f1d;
+}
+
+.menu a:hover{
+    background-color: rgba(255, 217, 0, 0.705);
+    color: #191f1d;
+}
+
+h1,a{
+    margin: 0;
+    text-decoration: none;
+    color:rgba(255, 217, 0, 0.705);
+}
+
+/****************** Footer ******************/
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    background-color: grey;
+    font-size: large;
+    font-family: 'Morpheus', sans-serif;
+    color: rgba(255, 217, 0, 0.705);;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgba(255, 217, 0, 0.705);
+}
+
+footer li{
+    list-style-type: none ;
+    padding-top: 20%;
+}
+
+footer p{
+    line-height: 200%;
+}
+
+footer img{
+    max-height: 300px;
+    max-width: auto;
+}
+
+/****************** Body ******************/
+body{
+    background-color: #191f1d;
+    color: rgba(255, 217, 0, 0.705);
+}
+
+h2{
+    font-family: 'Morpheus', sans-serif;
+    color: rgba(255, 217, 0, 0.705);
+    margin-left: 25%;
+    margin-top: 3%;
+    font-size: 250%;
+}
+
+#actualite{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.img_actu{
+    max-width: 300px;
+    max-height: auto;
+}
+
+.actu{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    border: 1px solid rgba(255, 217, 0, 0.705);
+    border-radius: 10px; 
+    padding: 1%; 
+    max-width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 200%
+}
+
+.txt_actu{
+    margin-left: 2%;
+}
+
+.video_activite{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.video p{
+    font-size: 150%;
+    font-style: italic;
+    margin-top: 1%;
+}
+
+
+
+.txt_histoire{
+    display: flex;
+    justify-content: center;
+}
+
+.txt_histoire p{
+    font-size: 120%;
+    margin-top: 1%;
+}
