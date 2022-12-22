@@ -66,7 +66,7 @@ h1,a{
     display: flex;
     justify-content: space-evenly;
     padding: 5%;
-    background-color: grey;
+    background-color: rgb(87, 87, 87);
     font-size: large;
     font-family: 'Morpheus', sans-serif;
     color: rgba(255, 217, 0, 0.705);
@@ -106,6 +106,8 @@ h2{
     font-size: 250%;
 }
 
+/****************** Page d'accueil (index) ******************/
+
 #actualite{
     
     display: flex;
@@ -140,6 +142,8 @@ h2{
     justify-content: center;
     margin: 2%;
 }
+
+/****************** Page histoire ******************/
 
 .video p{
     font-size: 150%;
@@ -178,3 +182,69 @@ h2{
 .txt_evenement{
     padding-left: 15%;
 }
+
+/****************** Page races ******************/
+.races{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img_race_div{
+    text-align: center;
+}
+
+.img_race{
+    max-width: 50%;
+    
+}
+
+.pres_race{
+    max-width: 35%;
+    border: 3px solid rgba(255, 217, 0, 0.705);
+    border-radius: 10px; 
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.txt_race p{
+    line-height: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.txt_race h3{
+    font-size: 200%;
+}
+
+.racial{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    margin: 5px;
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: rgba(255, 217, 0, 0.705);
+    text-align: center;
+    padding:10px;
+    margin-left: 5px;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
