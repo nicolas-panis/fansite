@@ -248,3 +248,37 @@ h2{
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+
+/****************** Page classes ******************/
+.img_classe{
+    max-width: 400px;
+    padding-top: 30%;
+}
+
+.classe{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.txt_classe{
+    max-width: 50%;
+    line-height: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.txt_classe h3{
+    font-size: 150%;
+    text-decoration: underline;
+    margin-bottom: 2%;
+}
+
+.txt_classe p{
+    margin-bottom: 2%;
+    font-size: 120%;
+}
+.txt_classe li{
+    list-style-type: square;
+    font-size: 125%;
+    margin-bottom: 1%;
+}
